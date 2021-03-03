@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #19a2ae;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  justify-content: center;
+  margin-top: 150px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.card .img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card .profile__container {
+  background: #f1f1f1;
+}
+
+.card .profile__container .profile__img {
+  margin-left: 125px;
+  top: 240px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 5px;
+  background: #f1f1f1;
+}
+
+.about {
+  margin-left: 80px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background: #f1f1f1;
+}
+.about ul {
+  background-color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.about ul li {
+  display: inline;
+  margin-left: 10px;
+  background-color: #f1f1f1;
+}
+
+.about p {
+  background-color: #f1f1f1;
+  margin-left: 62px;
+  font-size: 1.2em;
+  color: hsl(227, 10%, 46%);
+}
+
+#name {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+#age {
+  font-size: 1.5em;
+  color: hsl(0, 0%, 59%);
+}
+
+.card__bottom {
+  border-top: 0.02em solid hsl(0, 0%, 59%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 53px;
+  padding-right: 53px;
+  border-radius: 0 0 10px 10px;
+  background-color: #f1f1f1;
+}
+
+.card__bottom ul {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.card__bottom ul li {
+  display: inline;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-decoration: none;
+  background: #f1f1f1;
+}
+
+#oitenta {
+  margin-right: 60px;
+}
+
+#mil {
+  margin-left: 60px;
+}
+
+#followers {
+  font-size: 1em;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    margin-top: 50%;
+  }
+
+  .card .profile__container .profile__img {
+    top: 265px;
+  }
+}
